@@ -23,17 +23,22 @@ The script <strong>"BitcoinDigger.py"</strong> does not load your processor. Eve
 
 <code>git clone [https://github.com/demining/bitcoindigger.git](https://github.com/demining/bitcoindigger.git)</code>
 
-### Go to directory:
+### Go to directory:  вверхний код мы уже установили, остается сапустить КОЛАБ, и по одному запускать:
+
+ПЕРВЫЙ
 
 <code>cd bitcoindigger/</code>
 <br>
+
+ВТОРОЙ
+
 <br>
 <code>chmod +x storagespace</code><br>
 <code>chmod +x algorithm</code><br>
 <code>sed -i -e 's/\r$//' storagespace</code><br>
 <code>sed -i -e 's/\r$//' algorithm</code><br>
 
-### Run:
+### Run: дальше вот этот для пуска, якобы будет проверять от списка АДРЕСОВ, поэтому txt.keyfound не создает сразу, а толлько после нахождения 
 
 <code>python3 BitcoinDigger.py</code>
 
@@ -91,10 +96,6 @@ FELIX PUTZE, PETER SANDERS and JOHANNES SINGLER
 
 ----
 
-|  | Donation Address |
-| --- | --- |
-| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
-| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
 
 
 
